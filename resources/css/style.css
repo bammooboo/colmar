@@ -1,0 +1,438 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #4A4A4A;
+}
+
+a {
+	text-decoration: none;
+}
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.left {
+	width: 60%;
+}
+
+.right {
+	width: 40%;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	height: 64px;
+}
+
+.mobile {
+	display: none;
+}
+
+#logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo img {
+	height: 32px;
+	margin-left: 24px;
+}
+
+#logo p {
+	font-size: 1.25rem;
+}
+
+.menu {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+
+.menu a {
+	color: #4A4A4A;
+	font-size: 1.1rem;
+	transition: color 600ms ease-out 50ms;
+}
+
+.menu a:hover {
+	color: #5B9AE4;
+}
+
+.menu li {
+	margin-right: 16px;
+}
+
+.menu li:last-child {
+	margin-right: 24px;
+}
+
+.bold {
+	font-weight: 600;
+	transition: color 600ms ease-out 100ms;
+}
+
+.light {
+	color: #AAAAAA;
+}
+
+.bannerSection {
+	background-color: #D8D8D8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bannerSection img {
+	padding: 32px 24px;
+	width: 60%;
+}
+
+.new {
+	margin-left: 24px;
+}
+
+.new h1 {
+	margin-bottom: 24px;
+	font-size: 2.28rem;
+	font-weight: 700;
+}
+
+.new p {
+	word-spacing: 0.2rem;
+	font-weight: 600;
+	letter-spacing: 0.03rem;
+	line-height: 1.5rem;
+}
+.button {
+	display: block;
+	color: white;
+	font-size: 1.3rem;
+	font-weight: 400;
+	width: 80%;
+	height: auto;
+	margin-top: 24px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #4A4A4A;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	transition: all 600ms ease-out 50ms;
+}
+
+.button:hover {
+	background-color: #AAAAAA;
+	color: #4A4A4A;
+}
+
+.button:active {
+	background-color: #AAAAAA;
+}
+
+.infoArea {
+	display: flex;
+	justify-content: center;
+}
+
+.leftBox {
+	padding: 32px 24px;
+}
+
+.left img {
+	max-width: 100%;
+	margin-bottom: 32px;
+}
+
+.leftBox p {
+	margin: 24px 0;
+}
+
+.infoSide {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-left: 1px solid #D8D8D8;
+}
+
+.infoBlock {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px;
+	transition: background-color 750ms ease-in 100ms;
+}
+
+.infoBlock:hover {
+	background-color: #D8D8D8;
+}
+
+.campus {
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.infoImg {
+	width: 35%;
+	height: auto;
+}
+
+.infoText {
+	width: 65%;
+	padding-left: 16px;
+}
+
+.infoText a {
+	font-size: 0.9rem;
+	font-weight: 500;
+	letter-spacing: 0.03rem;
+	color: #5B9AE4;
+	transition: color 750ms ease-in 100ms;
+}
+
+.infoText h3 {
+	font-weight: 600;
+}
+
+.infoText a:hover {
+	color: #FFFFFF;
+}
+
+.infoText p {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 0.9rem;
+}
+
+.learning {
+	text-align: center;
+	background-color: #EAEBEC;
+}
+
+.learning h1 {
+	padding-top: 32px;
+}
+
+h5 {
+	font-weight: 500;
+}
+
+.learnInfo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 32px 72px;
+}
+
+.learnTile {
+	background-color: #FFFFFF;
+	width: 31%;
+	text-align: left;
+	margin: 0 2% 3% 0;
+}
+
+.learnTile:nth-child(3n + 0) {
+	margin: 0 0 3% 0;
+}
+
+.learnTile img {
+	width: 100%;
+}
+
+.learnTile h3 {
+	padding: 16px;
+	font-weight: 500;
+}
+
+.learnTile a {
+	color: #4A4A4A;
+	transition: color 600ms ease-out 50ms;
+}
+
+.learnTile a:hover {
+	color: #5B9AE4;
+}
+
+.tileText {
+	margin: 0 16px 16px 16px;
+	color: #767676;
+}
+
+.smallText {
+	font-size: 0.85rem;
+	margin-top: 16px;
+	color: #767676;
+}
+
+.thesis {
+	text-align: left;
+}
+
+.thesis h1 {
+	padding-top: 32px;
+}
+
+.thesis h2 {
+	margin-top: 24px;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.thesis p {
+	color: #767676;
+}
+
+#centerText {
+	text-align: center;
+}
+
+.thesisWrap {
+	display: flex;
+}
+
+.leftBox video {
+	width: 100%;
+}
+
+.noBorder {
+	border: none;
+}
+
+.thesisWrap .infoText {
+	text-align: left;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	height: 75px;
+	border-top: 1px solid #D8D8D8;
+}
+
+footer p {
+	display: inline-block;
+	font-size: 0.7rem;
+	margin-left: 24px;
+	margin-top: 16px;
+}
+
+footer li {
+	display: inline-block;
+	font-size: 0.7rem;
+	margin-top: 16px;
+	margin-right: 16px;
+	list-style-type: none;
+}
+
+footer a {
+	transition: color 750ms ease-in 100ms;
+	color: #767676;
+}
+
+footer a:hover {
+	color: #5B9AE4;
+}
+
+@media screen and (max-width:600px) {
+
+	.container {
+		border: none;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.bannerSection {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.bannerSection img {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.new {
+		width: 90%;
+		margin: 32px 16px;
+		align-items: left;
+
+	}
+
+	.button {
+		margin-bottom: 24px;
+		width: 100%;
+	
+	}
+
+	.infoBlock {
+		flex-direction: column;
+	}
+
+	.infoSide, .infoImg, .infoText, .learnTile, .thesisWrap, .leftBox {
+		width: 100%;
+		padding: 0;
+	}
+
+	.campus {
+		border: none;
+	}
+
+	.infoText {
+		margin-top: 32px;
+		margin-bottom: 32px;
+	}
+
+	.learning {
+		background-color: #FFFFFF;
+	}
+
+	.learnInfo {
+		flex-wrap: nowrap;
+		flex-direction: column;
+		padding: 32px;
+	}
+
+	.learnTile {
+		text-align: left;
+		background-color: #D8D8D8;
+	}
+
+	.learning, .thesis {
+		border-top: 1px solid #D8D8D8;
+	}
+
+	.thesis h1 {
+		margin-bottom: 16px;
+	}
+
+	footer {
+		margin-top: 24px;
+	}
+
+	footer p {
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+}
